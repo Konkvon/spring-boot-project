@@ -4,6 +4,7 @@ import com.course.course.enums.OrderStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
@@ -64,7 +65,9 @@ public class Order implements Serializable {
     }
 
     public void setOrderStatus(OrderStatus orderStatus) {
-        this.orderStatus = orderStatus.getCode();
+        if(orderStatus != null){
+            this.orderStatus = orderStatus.getCode();
+        }
     }
 
     @Override
