@@ -2,13 +2,10 @@ package com.course.course.services;
 
 import com.course.course.entities.User;
 import com.course.course.repositories.UserRepository;
-import com.course.course.resources.exceptions.ResourceExceptionHandler;
 import com.course.course.services.exceptions.DataBaseException;
 import com.course.course.services.exceptions.ResourceNotFoundException;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
