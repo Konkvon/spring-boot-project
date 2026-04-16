@@ -1,4 +1,4 @@
-# Spring Boot Project - Course Management API
+# Spring Boot Project - Management API
 
 Este é um projeto de uma API RESTful construída com **Spring Boot** e **Java 25**, desenvolvida como parte de um estudo aprofundado sobre o ecossistema Spring, JPA/Hibernate e boas práticas de desenvolvimento de software.
 
@@ -88,7 +88,7 @@ O projeto segue uma organização em camadas:
 - `services`: Camada de lógica de negócio.
 - `resources`: Controladores REST (Camada de API).
 - `config`: Configurações específicas da aplicação e perfis.
-- `resources/exceptions`: Tratamento customizado de erros e exceções da API.
+- `resources/exceptions e services/exceptions`: Tratamento customizado de erros e exceções da API.
 
 ---
 Desenvolvido por [Konkvon](https://github.com/Konkvon).
